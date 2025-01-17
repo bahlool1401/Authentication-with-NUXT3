@@ -30,6 +30,10 @@ export default defineNuxtConfig({
     provider:{
       type:'authjs'
     }
-  }
+  },
   // authjs is a JS package which provides a different authentication services
+
+  // typescript: {
+  //   typeCheck: true,
+  // },
 })
